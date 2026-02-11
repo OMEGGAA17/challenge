@@ -31,6 +31,9 @@ pnpm install
 pnpm dev
 ```
 
+Backup if error comes: 
+go to challenge-main\apps\api and then do pnpm dev (if for some reason backend is giving error along with pnpm dev in the challenge-main\
+
 ### Environment variables
 
 #### API (`apps/api/.env`)
@@ -48,5 +51,5 @@ pnpm dev
 - Set env vars listed above.
 
 ### Loom video talking points
-- See `LOOM.md`.
+- https://www.loom.com/share/a46bc95a4c0343dc93b7f44bd7e27681
 
