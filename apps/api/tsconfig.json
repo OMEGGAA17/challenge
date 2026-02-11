@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mirfa/crypto": ["../../packages/crypto/src"],
+      "@mirfa/types": ["../../packages/types/src"]
+    },
+    "outDir": "dist",
+    "rootDir": "../..",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts", "api/**/*.ts"]
+}
+

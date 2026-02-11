@@ -1,0 +1,27 @@
+{
+  "name": "@mirfa/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "lint": "echo \"(api) no lint configured\"",
+    "test": "node -e \"process.exit(0)\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "@fastify/cors": "^11.1.1",
+    "@libsql/client": "^0.15.12",
+    "@mirfa/crypto": "workspace:*",
+    "@mirfa/types": "workspace:*",
+    "fastify": "^5.6.0",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
